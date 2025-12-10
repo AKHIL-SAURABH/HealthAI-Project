@@ -1,0 +1,28 @@
+# Ignore datasets (too large for GitHub)
+datasets/
+*/datasets/
+**/datasets/
+
+# Ignore model checkpoints
+*.h5
+*.keras
+*.pkl
+
+# Allow only production models
+models/*.h5
+models/*.keras
+models/*.json
+models/*.pkl
+
+# Ignore temporary files
+__pycache__/
+*.tmp
+*.log
+*.DS_Store
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv

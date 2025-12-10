@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+pandas
+pillow
+tensorflow-cpu
+python-multipart
+pydantic
+joblib
