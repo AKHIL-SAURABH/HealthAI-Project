@@ -136,13 +136,13 @@ HealthAI-Project/
 Base URL:
 
 ```
-https://<your-render-backend-url>
+https://healthai-backend-oj25.onrender.com/
 ```
 
 Swagger Docs:
 
 ```
-https://<your-render-backend-url>/docs
+https://healthai-backend-oj25.onrender.com/docs
 ```
 
 ---
@@ -233,10 +233,21 @@ Streamlit UI:
 
 Add these once screenshots are uploaded:
 
-```
-![Dashboard Home](screenshots/dashboard_home.png)
-![Prediction Result](screenshots/prediction_result.png)
-```
+
+
+## DASBOARD
+
+![Dashboard Home](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/screenshots/dashboard_ha.jpg)
+
+## PNEUMONIA PREDICTION
+
+![Pneumonia Prediction Result](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/screenshots/pneumonia_ha.jpg)
+
+## MULTIPLE DISEAS PREDICTION
+
+![Multi-Diseas1 Prediction Result](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/screenshots/multi_1.jpg)
+![Multi-Diseas2 Prediction Result](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/screenshots/multi_2.jpg)
+
 
 ---
 
