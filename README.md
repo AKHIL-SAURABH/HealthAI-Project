@@ -5,6 +5,8 @@
 
 *A deep-learning powered platform for multi-disease medical imaging analysis, built with TensorFlow, FastAPI, Streamlit, and deployed on Render.*
 
+![HealthAI Banner](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/healthai.png?raw=true)
+
 ---
 
 ## 🏷️ Tech Stack Badges
