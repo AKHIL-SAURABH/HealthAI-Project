@@ -8,7 +8,7 @@ import pandas as pd
 # Config
 # -----------------------------
 
-API_URL = "http://127.0.0.1:8001"  # FastAPI backend base URL
+API_URL = "https://healthai-backend-oj25.onrender.com"  # FastAPI backend base URL
 
 st.set_page_config(
     page_title="HealthAI - X-ray Analysis",

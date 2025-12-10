@@ -3,16 +3,18 @@ datasets/
 */datasets/
 **/datasets/
 
-# Ignore model checkpoints
+# Ignore all model checkpoints
 *.h5
 *.keras
 *.pkl
+*.npy
 
-# Allow only production models
-models/*.h5
-models/*.keras
-models/*.json
-models/*.pkl
+# BUT allow production models in /models folder
+!models/*.h5
+!models/*.keras
+!models/*.json
+!models/*.pkl
+
 
 # Ignore temporary files
 __pycache__/
