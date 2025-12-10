@@ -171,16 +171,17 @@ Simple API check.
 
 ---
 
-## 🏗 **Architecture**
+## 🏗 Architecture
 
 ```mermaid
-graph TD;
-    A[CheXpert Dataset] --> B[EfficientNet Model Training];
-    B --> C[Saved Model (.keras)];
-    C --> D[FastAPI Backend];
-    D --> E[Streamlit Dashboard];
-    D --> F[Mobile App - Future];
-    D --> G[Cloud Deployment - Render];
+graph TD
+    A[CheXpert Dataset] --> B[Model Training - EfficientNet]
+    B --> C[Saved Model - Keras]
+    C --> D[FastAPI Backend]
+    D --> E[Streamlit Dashboard]
+    D --> F[Mobile App - Future]
+    D --> G[Cloud Deployment - Render]
+
 ```
 
 ---
@@ -284,4 +285,8 @@ This project is licensed under the **MIT License**.
 
 ---
 
+# 👤 **Author**
 
+**Akhil Saurabh**
+
+---
