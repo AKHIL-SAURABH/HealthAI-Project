@@ -49,7 +49,8 @@ This project demonstrates real-world deep learning workflow:
 
 ---
 
-## **DEMO**
+## **🎥 Demo Video**
+
 https://github.com/user-attachments/assets/6554dbb7-487a-4557-a995-9579b178bb3c
 
 ---
