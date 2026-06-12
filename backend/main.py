@@ -106,9 +106,12 @@ def preprocess_xray_image(file_bytes: bytes) -> np.ndarray:
 # -----------------------------
 
 @app.get("/health")
-@app.head("/health")
 async def health():
     return {"status": "ok"}
+
+@app.head("/health")
+async def health_head():
+    return Response(status_code=200)
 
 # --------- SIMPLE: PNEUMONIA vs NORMAL ---------
 
