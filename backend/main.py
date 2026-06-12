@@ -113,6 +113,12 @@ async def health():
 async def health_head():
     return Response(status_code=200)
 
+@app.get("/version")
+async def version():
+    return {
+        "version": "HEAD_FIX_V1"
+    }
+
 # --------- SIMPLE: PNEUMONIA vs NORMAL ---------
 
 @app.post("/predict-xray")
