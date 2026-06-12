@@ -106,7 +106,8 @@ def preprocess_xray_image(file_bytes: bytes) -> np.ndarray:
 # -----------------------------
 
 @app.get("/health")
-def health_check():
+@app.head("/health")
+async def health():
     return {"status": "ok"}
 
 # --------- SIMPLE: PNEUMONIA vs NORMAL ---------
